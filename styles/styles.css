@@ -52,3 +52,49 @@ a{
         letter-spacing: -0.35px;
         color: #777777;
 }
+
+
+/* секція contacts */
+
+.contacts-title{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.22;
+    letter-spacing: -1px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF; 
+}
+
+.contacts-button{
+font-weight: 700;
+font-size: 18px;
+line-height: 1.22;
+text-align: center;
+text-transform: uppercase;
+color: #FFFFFF;
+background: #FED136;
+}
+
+.contact{
+    background-color: #222222;
+}
+
+.contacts-input::placeholder{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.21;
+    letter-spacing: -0.35px;
+    text-transform: uppercase;
+    
+    color: #BBBBBB;
+}
+
+.contacts-coment::placeholder{
+font-weight: 700;
+font-size: 14px;
+line-height: 1.2;
+letter-spacing: -0.35px;
+text-transform: uppercase;
+color: #BBBBBB;
+}
