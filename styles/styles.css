@@ -1,12 +1,7 @@
 body {
   font-family: "Montserrat";
 }
-a {
-  text-decoration: none;
-}
-ul {
-  list-style: none;
-}
+
 .container {
   width: 942px;
   outline: solid red;
