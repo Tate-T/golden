@@ -13,72 +13,90 @@
     />
     <link rel="stylesheet" href="./styles/styles.css" />
   </head>
-
   <body>
     <header class="header-page">
-      <nav class="header-navigation">
-        <a class="header-logo" href="/">Golden</a>
-        <ul class="header-list">
-          <li class="header-item">
-            <a class="header-link" href="#">Home</a>
-          </li>
-          <li class="header-item">
-            <a class="header-link" href="#">Services</a>
-          </li>
-          <li class="header-item">
-            <a class="header-link" href="#">Portfolio</a>
-          </li>
-          <li class="header-item">
-            <a class="header-link" href="#">About</a>
-          </li>
-          <li class="header-item">
-            <a class="header-link" href="#">Contact</a>
-          </li>
-        </ul>
-      </nav>
+      <div class="container">
+        <nav class="header-navigation">
+          <a class="header-logo" href="/">Golden</a>
+          <ul class="header-list">
+            <li class="header-item">
+              <a class="header-link" href="#">Home</a>
+            </li>
+            <li class="header-item">
+              <a class="header-link" href="#">Services</a>
+            </li>
+            <li class="header-item">
+              <a class="header-link" href="#">Portfolio</a>
+            </li>
+            <li class="header-item">
+              <a class="header-link" href="#">About</a>
+            </li>
+            <li class="header-item">
+              <a class="header-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
     <main>
       <section class="services">
-        <h1 class="services-title">SERVICES</h1>
-        <ul class="services-list">
-          <li class="services-item">
-            <img src="#" alt="E-Commerce" class="services-photo" />
-            <h3 class="services-name">E-Commerce</h3>
-            <p class="services-text">
-              Proin iaculis purus consequat sem cure digni ssim. Donec
-              porttitora entum suscipit aenean rhoncus posuere odio in
-              tincidunt.
-            </p>
-          </li>
-          <li class="services-item">
-            <img src="#" alt="eded" class="services-photo" />
-            <h3 class="services-name">Responsive Web</h3>
-            <p class="services-text">
-              Proin iaculis purus consequat sem cure digni ssim. Donec
-              porttitora entum suscipit aenean rhoncus posuere odio in
-              tincidunt.
-            </p>
-          </li>
-          <li class="services-item">
-            <img src="#" alt="eds" class="services-photo" />
-            <h3 class="services-name">Web Security</h3>
-            <p class="services-text">
-              Proin iaculis purus consequat sem cure digni ssim. Donec
-              porttitora entum suscipit aenean rhoncus posuere odio in
-              tincidunt.
-            </p>
-          </li>
-        </ul>
+        <div class="container">
+          <h1 class="services-title">SERVICES</h1>
+          <ul class="services-list">
+            <li class="services-item">
+              <img src="#" alt="E-Commerce" class="services-photo" />
+              <h3 class="services-name">E-Commerce</h3>
+              <p class="services-text">
+                Proin iaculis purus consequat sem cure digni ssim. Donec
+                porttitora entum suscipit aenean rhoncus posuere odio in
+                tincidunt.
+              </p>
+            </li>
+            <li class="services-item">
+              <img src="#" alt="eded" class="services-photo" />
+              <h3 class="services-name">Responsive Web</h3>
+              <p class="services-text">
+                Proin iaculis purus consequat sem cure digni ssim. Donec
+                porttitora entum suscipit aenean rhoncus posuere odio in
+                tincidunt.
+              </p>
+            </li>
+            <li class="services-item">
+              <img src="#" alt="eds" class="services-photo" />
+              <h3 class="services-name">Web Security</h3>
+              <p class="services-text">
+                Proin iaculis purus consequat sem cure digni ssim. Donec
+                porttitora entum suscipit aenean rhoncus posuere odio in
+                tincidunt.
+              </p>
+            </li>
+          </ul>
+        </div>
       </section>
       <section class="contact">
-        <h2 class="contacts-title">Contact us</h2>
-        <form action="" class="contacts-form">
-          <input placeholder="your name *" type="text" class="contacts-input" />
-          <input placeholder="your e-mail *" type="text" class="contacts-input" />
-          <input placeholder="subject *" type="text" class="contacts-input" />
-         <textarea placeholder="Your message *" name="" id="" cols="30" rows="10" class="contacts-coment"></textarea>
-          <button class="contacts-button">Send Message</button>
-        </form>
+        <div class="container">
+          <h2 class="contacts-title">Contact us</h2>
+          <form class="contacts-form">
+            <input
+              placeholder="your name *"
+              type="text"
+              class="contacts-input"
+            />
+            <input
+              placeholder="your e-mail *"
+              type="text"
+              class="contacts-input"
+            />
+            <input placeholder="subject *" type="text" class="contacts-input" />
+            <textarea
+              placeholder="Your message *"
+              cols="30"
+              rows="10"
+              class="contacts-coment"
+            ></textarea>
+            <button class="contacts-button">Send Message</button>
+          </form>
+        </div>
       </section>
     </main>
   </body>
