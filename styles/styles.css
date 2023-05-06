@@ -10,6 +10,15 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+/* хедер */
+.header-navigation{
+  display: flex;
+}
+.header-list{
+  display: flex;
+  margin-left: auto ;
+  gap: 10px;
+}
 .header-logo {
   font-family: "Bilbo Swash Caps";
   font-weight: 400;
@@ -30,7 +39,13 @@ body {
 }
 
 /* секція сервіси */
-
+.services-list{
+  display: flex;
+  gap: 56px;
+}
+.services-item{
+  outline: solid green;
+}
 .services-title {
   font-weight: 700;
   font-size: 40px;
