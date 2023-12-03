@@ -1,0 +1,54 @@
+.services-list{
+    display: flex;
+    gap: 56px;
+  }
+  .services-item{
+    outline: solid green;
+  }
+  .services-title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.88;
+    color: #222222;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 88px;
+  }
+  
+  .services-name {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 4.17;
+    text-align: center;
+    letter-spacing: -0.45px;
+    color: #222222;
+  }
+  
+  .services-text {
+    font-family: "RobotoSlab";
+    font-size: 14px;
+    line-height: 1.14;
+    text-align: center;
+    letter-spacing: -0.35px;
+    color: #777777;
+  }
+  .services-icon{
+    fill: #FED136;
+  }
+  .servises-box{
+    border-radius: 50%;
+    width: 70px;
+    height: 69px;
+    border: solid 3px #FED136;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .services {
+    padding-top: 109px;
+    padding-bottom: 119px;
+  }

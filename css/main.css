@@ -1,3 +1,22 @@
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: "Montserrat";
 }
@@ -10,22 +29,23 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
-/* хедер */
-.header-navigation{
+
+.header-navigation {
   display: flex;
 }
-.header-list{
+
+.header-list {
   display: flex;
-  margin-left: auto ;
+  margin-left: auto;
   gap: 10px;
 }
+
 .header-logo {
   font-family: "Bilbo Swash Caps";
   font-weight: 400;
   font-size: 36px;
   line-height: 1.14;
   letter-spacing: 1.3px;
-
   color: #fed136;
 }
 
@@ -34,18 +54,22 @@ body {
   font-size: 14px;
   line-height: 2.93;
   text-transform: uppercase;
-
   color: #fed136;
 }
 
-/* секція сервіси */
-.services-list{
+.header-page {
+  padding-top: 44px;
+}
+
+.services-list {
   display: flex;
   gap: 56px;
 }
-.services-item{
+
+.services-item {
   outline: solid green;
 }
+
 .services-title {
   font-weight: 700;
   font-size: 40px;
@@ -74,10 +98,12 @@ body {
   letter-spacing: -0.35px;
   color: #777777;
 }
-.services-icon{
+
+.services-icon {
   fill: #FED136;
 }
-.servises-box{
+
+.servises-box {
   border-radius: 50%;
   width: 70px;
   height: 69px;
@@ -88,7 +114,11 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
-/* секція contacts */
+
+.services {
+  padding-top: 109px;
+  padding-bottom: 119px;
+}
 
 .contacts-title {
   font-weight: 700;
@@ -121,13 +151,30 @@ body {
   background-color: #222222;
 }
 
+.contacts-input::-moz-placeholder {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.21;
+  letter-spacing: -0.35px;
+  text-transform: uppercase;
+  color: #bbbbbb;
+}
+
 .contacts-input::placeholder {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.21;
   letter-spacing: -0.35px;
   text-transform: uppercase;
+  color: #bbbbbb;
+}
 
+.contacts-coment::-moz-placeholder {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: -0.35px;
+  text-transform: uppercase;
   color: #bbbbbb;
 }
 
@@ -144,19 +191,9 @@ body {
   outline: solid green;
 }
 
-
-.services {
-  padding-top: 109px;
-  padding-bottom: 119px;
-}
-
 .contact {
   padding-top: 92px;
   padding-bottom: 115px;
-}
-
-.header-page {
-  padding-top: 44px;
 }
 
 .contacts-flex {
@@ -165,13 +202,13 @@ body {
   justify-content: center;
 }
 
-.contact-list{
+.contact-list {
   display: flex;
   flex-direction: column;
   gap: 28px;
 }
 
-.contacts-input{
+.contacts-input {
   width: 455px;
   height: 50px;
   padding-left: 20px;
@@ -180,7 +217,7 @@ body {
   border-radius: 2px;
 }
 
-.contacts-coment{
+.contacts-coment {
   width: 458px;
   height: 212px;
   padding-left: 22px;
@@ -188,4 +225,4 @@ body {
   background: #FFFFFF;
   border: 1px solid #CCCCCC;
   border-radius: 2px;
-}
+}/*# sourceMappingURL=main.css.map */
